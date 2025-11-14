@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-g" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revalida Practice SPA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @keyframes subtle-flash {
+        0% { background-color: transparent; }
+        25% { background-color: rgba(251, 191, 36, 0.3); } /* amber-300 with opacity */
+        100% { background-color: transparent; }
+      }
+      .animate-subtle-flash {
+        animation: subtle-flash 1.5s ease-in-out;
+        border-radius: 4px;
+        padding: 0 2px;
+        margin: 0 -2px;
+        font-style: italic;
+        font-weight: 500;
+        color: #374151; /* gray-700 */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
+    "tailwind-merge": "https://aistudiocdn.com/tailwind-merge@^3.4.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "Revalida Practice SPA v09",
+  "description": "A single-page application for medical students to practice for the Revalida exam. It features a daily scheduler, an AI-powered simulated patient for interactive training, performance tracking, and a library of practice stations.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
